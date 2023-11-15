@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Common */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+/* End Common */
+
+/* Top header */
+.top-header {
+    background: #240065;
+    padding: 10px 0;
+}
+.back-home {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: 600;
+}
+
+.top-menu li {
+    padding: 0 29px;
+    border-right: 1px solid #fff;
+    margin: 0;
+    display: inline-block;
+}
+
+.top-menu li:first-child {
+    padding-left: 0;
+}
+
+.top-menu li:last-child {
+    padding-right: 0;
+    border: none;
+}
+
+.top-menu li a {
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* End top header */
+
+/* Bottom header */
+.bottom-header .logo {
+    width: 150px;
+    height: 80px;
+    position: relative;
+}
+
+.bottom-header .logo img {
+    width: auto;
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.bottom-menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.bottom-menu li a {
+    line-height: 80px;
+    text-decoration: none;
+    padding: 0 12px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #212529;
+}
+
+.bottom-menu li a:hover, .bottom-menu li a.select {
+    color: #007bff;
+}
+
+.bottom-menu-item a .ic-bf1 {
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    background: transparent url(../assets/images/ic-bf21.png) no-repeat center center;
+    margin-left: 5px;
+    vertical-align: 1px;
+}
+
+.bottom-menu-item .active {
+    color: #3362D7;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(208.06deg, #214499 5.05%, #3362D7 83.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bottom-menu-item.item-btn a {
+    margin-left: 40px;
+    padding: 10px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #4D7FF8;
+    border-radius: 8px;
+}
+
+.bottom-menu-item.item-btn a:hover {
+    color: #FFFFFF;
+    background: #1cbadb;
+}
+
+/* End bottom header */
+
+/* Sub button header */
+.sub-button-header {
+    background: #eceff1;
+}
+
+.sub-nav-item {
+    display: inline-block;
+    padding: 19px 20px;
+}
+
+.sub-nav-item a {
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sub-nav-item a:hover, .sub-nav-item a.active {
+    color: #2F80ED;
+}
+
+.box-search {
+    display: flex;
+    align-items: center;
+    right: 15px;
+    height: 60px;
+    justify-content: center;
+}
+
+.main-search {
+    height: 34px;
+    background: #fff;
+    position: relative;
+    
+}
+
+.input-search {
+    border: 1px solid #C4C4C4;
+    width: 243px;
+    padding-left: 36px;
+    padding-right: 15px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    font-family: Lexend Deca;
+    color: #828282;
+}
+
+.btn-search {
+    background: transparent url(../assets/images/ic-search-0211.png);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-indent: -9999px;
+}
